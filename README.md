@@ -2,7 +2,7 @@
 ## 	:toolbox: Generador de documentos. 
 
 <p>
-Con esta pequeña aplicación el usuario podrá crear infinitos documentos utilizando simplemente una plantilla de excel como BBDD y una plantilla de Word que puede personalizar como desee.
+\tCon esta pequeña aplicación el usuario podrá crear infinitos documentos utilizando simplemente una plantilla de excel como BBDD y una plantilla de Word que puede personalizar como desee.
 </p>
 
 
