@@ -8,19 +8,21 @@ Con esta pequeña aplicación el usuario podrá crear infinitos documentos utili
 
 ### :key: Para poder correr el programa, debe:
 
-`Descargar los archivos del repositorio.
+Descargar los archivos del repositorio.
 Instalar todas las librerias necesarias:
-docxtpl
-tqdm
-pandas
-os`
+- docxtpl
+- tqdm
+- pandas
+- os
 
 ### :gear: Para poder crear el ejecutable (.exe):
 
-`debe estar ubicado en la carpeta donde estén los archivos del repositorio`
-`tener instalado la libreria de PyInstaller`
-`y correr el sgte comando`
+- Debe estar ubicado en la carpeta donde estén los archivos del repositorio
+- Tener instalado la libreria de PyInstaller
+- Correr el sgte comando:
 
 ```bash
 py -3.10 -m PyInstaller --onefile .\docGenerator.py
 ```
+
+`11/11/2022, Asunción Paraguay`
