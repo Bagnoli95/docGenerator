@@ -24,6 +24,9 @@ Instalar todas las librerias necesarias:
 ```bash
 py -3.10 -m PyInstaller --onefile .\docGenerator.py
 ```
+
+`hola, soy una linea de texto`
+
 <div align="right">
-`11/11/2022, Asunción Paraguay`
+11/11/2022, Asunción Paraguay
 </div>
