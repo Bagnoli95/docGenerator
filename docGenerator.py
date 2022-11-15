@@ -1,5 +1,6 @@
 from docxtpl import DocxTemplate
 from tqdm import tqdm
+from docx2pdf import convert
 import pandas as pd
 import os
 
@@ -33,7 +34,7 @@ def procesar_documentos(contexto_doc):
 
 
 # Funcion para generar los pdf
-def generar_pdf():
+def generar_pdf(path_docx):
     print('(Aun no esta disponible la generación de pdf)')
     return
 
@@ -101,10 +102,15 @@ if usuario_flag == 'S' or usuario_flag == 's':
         pbar.update(1)
 
     pbar.close()
+    
+    # Generar pdf  de todos los docx generados
     if pos_procesado == 'pdf':
-        generar_pdf()
+        generar_pdf(carpeta)
+    
     print(f'Proceso terminado, se crearon {contador} archivos\n')
 else:
     print('Proceso cancelado.\n')
+
+# generar_pdf("C:\ARTURO\Python\python\DocsGenerator\Generados")
 
 os.system('Pause')
